@@ -8,7 +8,7 @@ Each node in a list consists of at least two parts:
 1. data
 2. Pointer (Or Reference) to the next node
 
-![Linked List](https://en.wikipedia.org/wiki/File:Singly-linked-list.svg)
+![Linked List](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
 
 ### Why Linked List?
 Arrays can be used to store linear data of similar types, but arrays have the following limitations.
