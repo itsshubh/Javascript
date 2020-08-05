@@ -5,7 +5,7 @@ Linked List is a linear data structure. In linked list, elements are not stored 
 ### Representation:
 A linked list is represented by a pointer to the first node of the linked list. The first node is called the head. If the linked list is empty, then the value of the head is NULL.
 Each node in a list consists of at least two parts:
-1. data
+1. Data
 2. Pointer (Or Reference) to the next node
 
 ![Linked List](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
