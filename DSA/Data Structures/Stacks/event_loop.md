@@ -5,7 +5,6 @@ JavaScript has a concurrency model based on an event loop, which is responsible 
 ![Event Loop](https://miro.medium.com/max/788/1*QbEk21UatVQzxOUbYti5VQ.gif)
 
 ### Runtime concepts
-__Visual representation__
 ![JS_Runtime_Env](/Assets/JS_Runtime_Env.svg)
 
 - __Stack__ : Function calls form a stack of frames.
