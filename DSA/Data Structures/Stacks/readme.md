@@ -37,9 +37,9 @@ The prototypical example of a backtracking algorithm is depth-first search, whic
 There are two ways to implement a stack:
 
 1. Using array  
-__Pros__: Easy to implement. Memory is saved as pointers are not involved.
+__Pros__: Easy to implement. Memory is saved as pointers are not involved.  
 __Cons__: It is not dynamic. It doesn’t grow and shrink depending on needs at runtime.
 
 2. Using linked list  
-__Pros__: The linked list implementation of stack can grow and shrink according to the needs at runtime.
+__Pros__: The linked list implementation of stack can grow and shrink according to the needs at runtime.  
 __Cons__: Requires extra memory due to involvement of pointers.
