@@ -15,22 +15,24 @@ __1. Search Operation__
 The algorithm depends on the property of BST that if each left subtree has values below root and each right subtree has values above the root.
 If the value is below the root, we can say for sure that the value is not in the right subtree; we need to only search in the left subtree and if the value is above the root, we can say for sure that the value is not in the left subtree; we need to only search in the right subtree.
 
-__Algorithm:__
-        If root == NULL 
-            return NULL;
-        If number == root->data 
-            return root->data;
-        If number < root->data 
-            return search(root->left)
-        If number > root->data 
-            return search(root->right)
+__Algorithm:__  
+
+                If root == NULL 
+                    return NULL;
+                If number == root->data 
+                    return root->data;
+                If number < root->data 
+                    return search(root->left)
+                If number > root->data 
+                    return search(root->right)
 
 
 __2. Insert Operation__
 Inserting a value in the correct position is similar to searching because we try to maintain the rule that the left subtree is lesser than root and the right subtree is larger than root.
 We keep going to either right subtree or left subtree depending on the value and when we reach a point left or right subtree is null, we put the new node there.
 
-__Algorithm:__
+__Algorithm:__  
+
     If node == NULL  
         return createNode(data)  
     if (data < node->data)  
