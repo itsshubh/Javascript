@@ -16,6 +16,7 @@ The algorithm depends on the property of BST that if each left subtree has value
 If the value is below the root, we can say for sure that the value is not in the right subtree; we need to only search in the left subtree and if the value is above the root, we can say for sure that the value is not in the left subtree; we need to only search in the right subtree.
 
 __Algorithm:__  
+
     If root == NULL 
         return NULL;
     If number == root->data 
@@ -31,6 +32,7 @@ Inserting a value in the correct position is similar to searching because we try
 We keep going to either right subtree or left subtree depending on the value and when we reach a point left or right subtree is null, we put the new node there.
 
 __Algorithm:__  
+
     If node == NULL  
         return createNode(data)  
     if (data < node->data)  
