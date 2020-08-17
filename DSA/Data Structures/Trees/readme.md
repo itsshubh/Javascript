@@ -6,18 +6,19 @@ A tree is a nonlinear hierarchical data structure that consists of nodes connect
 ## Why Trees?
 1. One reason to use trees might be because you want to store information that naturally forms a hierarchy. For example, the file system on a computer:
 
-file system
------------
-     /    <-- root
-  /      \
-...       home
-      /          \
-   ugrad        course
-    /       /      |     \
-  ...      cs101  cs112  cs113  
-2. Trees (with some ordering e.g., BST) provide moderate access/search (quicker than Linked List and slower than arrays).
-3. Trees provide moderate insertion/deletion (quicker than Arrays and slower than Unordered Linked Lists).
-4. Like Linked Lists and unlike Arrays, Trees don’t have an upper limit on number of nodes as nodes are linked using pointers.
+### File system
+
+        /    <-- root
+      /      \
+    ...       home
+          /          \
+      ugrad        course
+        /       /      |     \
+      ...      cs101  cs112  cs113  
+
+2. Trees (with some ordering e.g., BST) provide moderate access/search (quicker than Linked List and slower than arrays). 
+3. Trees provide moderate insertion/deletion (quicker than Arrays and slower than Unordered Linked Lists). 
+4. Like Linked Lists and unlike Arrays, Trees don’t have an upper limit on number of nodes as nodes are linked using pointers. 
 
 __Main applications of trees include:__
 - Manipulate hierarchical data.

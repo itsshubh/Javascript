@@ -9,6 +9,6 @@ Balance Factor = (Height of Left Subtree - Height of Right Subtree) or (Height o
 
 The self balancing property of an avl tree is maintained by the balance factor. The value of balance factor should always be -1, 0 or +1.
 
-[AVL Tree](../../../../Assets/AVL_Tree.png)
+![AVL Tree](../../../../Assets/AVL_Tree.png)
 
 For more info -> [AVL tree](https://www.programiz.com/dsa/avl-tree)

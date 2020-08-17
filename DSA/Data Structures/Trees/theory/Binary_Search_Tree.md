@@ -31,13 +31,13 @@ Inserting a value in the correct position is similar to searching because we try
 We keep going to either right subtree or left subtree depending on the value and when we reach a point left or right subtree is null, we put the new node there.
 
 __Algorithm:__
-    If node == NULL 
-        return createNode(data)
-    if (data < node->data)
-        node->left  = insert(node->left, data);
-    else if (data > node->data)
-        node->right = insert(node->right, data);  
-    return node;
+    If node == NULL  
+        return createNode(data)  
+    if (data < node->data)  
+        node->left  = insert(node->left, data);  
+    else if (data > node->data)  
+        node->right = insert(node->right, data);    
+    return node;  
 
 
 __3. Deletion Operation__
