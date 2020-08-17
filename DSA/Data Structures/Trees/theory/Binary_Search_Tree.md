@@ -16,14 +16,14 @@ The algorithm depends on the property of BST that if each left subtree has value
 If the value is below the root, we can say for sure that the value is not in the right subtree; we need to only search in the left subtree and if the value is above the root, we can say for sure that the value is not in the left subtree; we need to only search in the right subtree.
 
 __Algorithm:__
-    If root == NULL 
-        return NULL;
-    If number == root->data 
-        return root->data;
-    If number < root->data 
-        return search(root->left)
-    If number > root->data 
-        return search(root->right)
+        If root == NULL 
+            return NULL;
+        If number == root->data 
+            return root->data;
+        If number < root->data 
+            return search(root->left)
+        If number > root->data 
+            return search(root->right)
 
 
 __2. Insert Operation__
