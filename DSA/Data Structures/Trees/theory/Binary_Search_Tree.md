@@ -11,6 +11,7 @@ The properties that separate a binary search tree from a regular binary tree is
 - Both subtrees of each node are also BSTs i.e. they have the above two properties.
 
 There are 3 basic operations that you can perform on a binary search tree:
+
 __1. Search Operation__    
 The algorithm depends on the property of BST that if each left subtree has values below root and each right subtree has values above the root.
 If the value is below the root, we can say for sure that the value is not in the right subtree; we need to only search in the left subtree and if the value is above the root, we can say for sure that the value is not in the left subtree; we need to only search in the right subtree.
@@ -62,6 +63,7 @@ The node to be deleted has two children. In such a case follow the steps below:
 3. Remove the inorder successor from its original position.
 
 __Delete 3__
+
                     - 3 to be Deleted                        
                             8
                           /   \
