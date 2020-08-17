@@ -104,7 +104,8 @@ Insertion	    O(log n)	            O(log n)	                    O(n)
 Deletion	    O(log n)	            O(log n)	                    O(n)
 Here, n is the number of nodes in the tree.
 
-__Space Complexity__
+__Space Complexity__ 
+
 The space complexity for all the operations is O(n).
 
 __Binary Search Tree Applications__
