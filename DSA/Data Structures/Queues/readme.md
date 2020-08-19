@@ -51,7 +51,7 @@ __Cons of Array Implementation:__
 
 ### Types of Queue
 
-__1. Simple Queue__ [Simple Queue](./mds/simple queue.md)
+__1. Simple Queue__ [Simple Queue]("./mds/simple queue.md")
 In a simple queue, insertion takes place at the rear and removal occurs at the front. It strictly follows FIFO rule.
 
 __2. Circular Queue__
