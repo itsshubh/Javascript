@@ -25,12 +25,12 @@ Queues are widely used as waiting lists for a single shared resource like printe
 5. Queues are used in operating systems for handling interrupts.
 
 
-## Array implementation Of Queue
+### Array implementation Of Queue
 
 For implementing queue, we need to keep track of two indices, front and rear. We enqueue an item at the rear and dequeue an item from the front. If we simply increment front and rear indices, then there may be problems, the front may reach the end of the array. The solution to this problem is to increase front and rear in circular manner.
 
 
-## Complexity Analysis:
+### Complexity Analysis:
 
 __Time Complexity:__
 Operations              Complexity
@@ -51,7 +51,7 @@ __Cons of Array Implementation:__
 
 ### Types of Queue
 
-__1. Simple Queue__ [Simple Queue]("./mds/simple_queue.md")
+__1. [Simple Queue]("./mds/simple_queue.md")__
 In a simple queue, insertion takes place at the rear and removal occurs at the front. It strictly follows FIFO rule.
 
 __2. Circular Queue__
