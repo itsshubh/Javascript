@@ -26,6 +26,7 @@ push(), pop(), isEmpty() and peek() all take O(1) time. We do not run any loop i
 - Forward and backward feature in web browsers
 - Used in many algorithms like Tower of Hanoi, tree traversals, stock span problem, histogram problem.
 - Other applications can be Backtracking, Knight tour problem, rat in a maze, N queen problem and sudoku solver.
+- Reverse a word - Put all the letters in a stack and pop them out. Because of the LIFO order of stack, you will get the letters in reverse order.
 
 (__Backtracking__ -> Consider a simple example of finding the correct path in a maze. There are a series of points, from the starting point to the destination. We start from one point. To reach the final destination, there are several paths. Suppose we choose a random path. After following a certain path, we realise that the path we have chosen is wrong. So we need to find a way by which we can return to the beginning of that path. This can be done with the use of stacks. With the help of stacks, we remember the point where we have reached. This is done by pushing that point into the stack. In case we end up on the wrong path, we can pop the last point from the stack and thus return to the last point and continue our quest to find the right path. This is called backtracking.
 

@@ -14,7 +14,6 @@ function partition(arr, l, r) {
     arr[r] = temp;
     return i + 1;
 }
-
 function quickSort(arr, l, r) {
     if (l < r) {
         var pi = partition(arr, l, r);
@@ -24,7 +23,7 @@ function quickSort(arr, l, r) {
 }
 
 function sort(arr) {
-    quickSort(arr, 0, arr.length - 1)
+    quickSort(arr, 0, arr.length - 1);
     return arr;
 }
 

@@ -7,6 +7,24 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Test",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/test.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Binary Search implementation",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\DSA\\Algorithms\\Searching\\Binary_Search\\implementation.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Tree implementation",
             "skipFiles": [
                 "<node_internals>/**"
