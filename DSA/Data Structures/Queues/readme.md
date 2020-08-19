@@ -51,18 +51,15 @@ __Cons of Array Implementation:__
 
 ### Types of Queue
 
-__1. [Simple Queue]("./mds/simple_queue.md")__
-In a simple queue, insertion takes place at the rear and removal occurs at the front. It strictly follows FIFO rule.
-
-__2. Circular Queue__
+__1. [Circular Queue](./mds/simple_queue.md)__
 In a circular queue, the last element points to the first element making a circular link.
 
 The main advantage of a circular queue over a simple queue is better memory utilization. If the last position is full and the first position is empty then, an element can be inserted in the first position. This action is not possible in a simple queue.
 
-__3. Priority Queue__
+__2. [Priority Queue](./mds/simple_queue.md)__
 A priority queue is a special type of queue in which each element is associated with a priority and is served according to its priority. If elements with the same priority occur, they are served according to their order in the queue.
 
 Insertion occurs based on the arrival of the values and removal occurs based on priority.
 
-__4. Deque (Double Ended Queue)__
+__3. [Deque (Double Ended Queue)](./mds/deque.md)__
 Double Ended Queue is a type of queue in which insertion and removal of elements can be performed from either from the front or rear. Thus, it does not follow FIFO rule (First In First Out).
