@@ -1,4 +1,4 @@
-## Javascript
+### Javascript
 
 This repository is all about Javascript. Here you can find Data Structures, Algorithms, OOPS Concept, Design Patterns and much more all implemented in Javascript.
 
