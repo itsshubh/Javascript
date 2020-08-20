@@ -7,6 +7,15 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Linked List Implementation",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}/DSA/Data_Structures/Linked_Lists/implementation.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Test",
             "skipFiles": [
                 "<node_internals>/**"
@@ -29,7 +38,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\DSA\\Data Structures\\Trees\\implementation.js"
+            "program": "${workspaceFolder}\\DSA\\Data_Structures\\Trees\\implementation.js"
         }
     ]
 }
